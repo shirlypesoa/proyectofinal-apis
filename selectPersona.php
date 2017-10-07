@@ -4,7 +4,7 @@ $username = "root";
 $password = "root";
 $dbname = "donaciones";
 
-$id;
+$id= $GET_["id"];
 
 try {
 	$DBH = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
